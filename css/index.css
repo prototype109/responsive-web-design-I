@@ -257,6 +257,12 @@ p{
 	/* display: none; */
 }
 
+@media(max-width: 500px){
+	.second-paragraph-section p{
+		max-width: 100%;
+	}
+}
+
 #contact{
 	display: flex;
 	flex-direction: column;
