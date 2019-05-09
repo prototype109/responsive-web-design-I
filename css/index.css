@@ -90,6 +90,13 @@ nav{
 	width: 500px;
 }
 
+@media(max-width: 800px){
+	nav{
+		width: 100%;
+		/* display: none; */
+	}
+}
+
 @media(max-width: 500px){
 	nav{
 		flex-direction: column;
@@ -105,7 +112,7 @@ hr{
 	align-self: flex-end;
 }
 
-@media(max-width: 500px){
+@media(max-width: 800px){
 	hr{
 		max-width: 100%;
 		margin: 0;
@@ -133,7 +140,7 @@ header{
 	align-items: baseline;
 }
 
-@media(max-width: 500px){
+@media(max-width: 800px){
 	header{
 		flex-direction: column-reverse;
 		align-items: center;
@@ -150,7 +157,7 @@ p{
 	margin-right: 100px;
 }
 
-@media(max-width: 500px){
+@media(max-width: 800px){
 	.logo{
 		margin-right: 0;
 		margin-top: 24px;
@@ -164,7 +171,7 @@ p{
 	width: 950px;
 }
 
-@media(max-width: 500px){
+@media(max-width: 800px){
 	.container{
 		margin: 0;
 		max-width: 100%;
@@ -179,7 +186,7 @@ p{
 	margin: 100px 0;
 }
 
-@media(max-width: 500px){
+@media(max-width: 800px){
 	.Innovation .header-img{
 		display: none;
 	}
@@ -220,6 +227,12 @@ p{
 .second-paragraph-section{
 	display: flex;
 	margin: 50px 0;
+}
+
+@media(max-width: 800px){
+	.middle-img{
+		max-width: 100%;
+	}
 }
 
 @media(max-width: 500px){
